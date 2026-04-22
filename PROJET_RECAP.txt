@@ -1,0 +1,55 @@
+========================================================================
+             HIRAFI - PLATEFORME DE MISE EN RELATION D'ARTISANS
+                     RECAPITULATIF DU PROJET PFE
+========================================================================
+
+1. RESUME DU CAHIER DES CHARGES
+--------------------------------
+Hirafi est une application marketplace destinee au marche tunisien, permettant
+aux utilisateurs de trouver et de solliciter des artisans (plombiers, electriciens, etc.).
+
+Fonctionnalites cles :
+- Gestion des profils (Citoyens et Artisans).
+- Publication de realisations par les artisans.
+- Demandes de travaux en temps reel.
+- Tableau de bord Administrateur pour la gestion et la validation des artisans.
+- Systeme de portefeuille electronique (Wallet) et Escrow pour securiser les paiements.
+
+2. COMPTES DE TEST (IDENTIFIANTS)
+----------------------------------
+Voici les comptes pre-configures pour la demonstration :
+
+- COMPTE ADMINISTRATEUR :
+  Email : admin@hirafi.com
+  Mot de passe : admin1234
+  Role : Gestion des utilisateurs, validation des artisans, statistiques.
+
+- COMPTE UTILISATEUR (CITOYEN) :
+  Email : omar@hirafi.com
+  Mot de passe : password123
+  Role : Recherche d'artisans, creation de demandes de travaux.
+
+- COMPTE ARTISAN :
+  Email : karim@hirafi.com
+  Mot de passe : password123
+  Role : Gestion de profil artisan, publication de posts, reponse aux demandes.
+
+3. ETAPES DE REALISATION ET FINALISATION
+-----------------------------------------
+- FINALISATION BACKEND : Correction de l'endpoint de profil artisan (GET /api/workers/profile)
+  et optimisation des DTO pour inclure les professions et notations.
+- CONFIGURATION MULTI-PLATEFORME : Mise en place d'une detection dynamique de l'URL API
+  (10.0.2.2 pour l'emulateur Android et localhost pour le Web/Desktop).
+- OPTIMISATION GIT : Nettoyage de l'historique (retrait des fichiers lourds JDK/Maven)
+  reduisant la taille du depot de 600 Mo a moins de 1 Mo.
+- DEPLOIEMENT GITHUB : Creation du depot distant 'hirafi' et mise en ligne via
+  Personal Access Token (PAT).
+- TESTS ET VALIDATION : Tests E2E reussis sur Chrome et sur emulateur Android (Pixel 6).
+
+4. INFOS GITHUB
+---------------
+Depot : https://github.com/ksibikhaled/hirafi
+Auteur : khaled.ksibi@esprit.tn
+
+Document genere le : 22 Avril 2026
+========================================================================
