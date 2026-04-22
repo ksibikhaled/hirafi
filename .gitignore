@@ -1,0 +1,25 @@
+# Tools & Binaries
+.tools/
+*.zip
+*.exe
+*.doc
+
+# Backend
+MobileApp/hirafi-backend/target/
+MobileApp/hirafi-backend/.idea/
+MobileApp/hirafi-backend/*.log
+
+# Frontend
+MobileApp/hirafi_frontend/.dart_tool/
+MobileApp/hirafi_frontend/build/
+MobileApp/hirafi_frontend/.idea/
+MobileApp/hirafi_frontend/.vscode/
+MobileApp/hirafi_frontend/windows/flutter/ephemeral/
+MobileApp/hirafi-backend/startup_log.txt
+MobileApp/hirafi_frontend/analyze_results*.txt
+*.png
+*.jpg
+*.jpeg
+*.log
+.DS_Store
+.history/
